@@ -89,7 +89,7 @@ wheels = [
 [[package]]
 name = "gaia-lang"
 version = "0.3.0"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "../Gaia" }
 dependencies = [
     { name = "faiss-cpu" },
     { name = "httpx" },
@@ -98,10 +98,37 @@ dependencies = [
     { name = "pydantic" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/19/49/f5d0619a7fbdb07806a279a07229782df91f8b1d7dab77a952507dd52fd4/gaia_lang-0.3.0.tar.gz", hash = "sha256:2e499c3ac2eb424f065eab687463cd85eaafc8c1f4bbb9662874e1e20178da7e", size = 145565, upload-time = "2026-04-10T01:09:39.804Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/b3/fc/feaa99e55c6e950e210d4c7807e4a31a64c5248841171717b052fac1a41c/gaia_lang-0.3.0-py3-none-any.whl", hash = "sha256:0002a040e53edf9d9bd9b4755449043d56e1eb92da61b8b26ee85d28b9a8452b", size = 160418, upload-time = "2026-04-10T01:09:38.489Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "clickhouse-connect", marker = "extra == 'server'", specifier = ">=0.7" },
+    { name = "faiss-cpu", specifier = ">=1.7" },
+    { name = "fastapi", marker = "extra == 'server'", specifier = ">=0.110" },
+    { name = "httpx", specifier = ">=0.27" },
+    { name = "httpx", marker = "extra == 'server'", specifier = ">=0.27" },
+    { name = "kuzu", marker = "extra == 'server'", specifier = ">=0.4" },
+    { name = "lancedb", marker = "extra == 'server'", specifier = ">=0.6" },
+    { name = "litellm", marker = "extra == 'server'", specifier = ">=1.40" },
+    { name = "lxml", marker = "extra == 'server'", specifier = ">=5.0" },
+    { name = "neo4j", marker = "extra == 'server'", specifier = ">=5.0" },
+    { name = "numpy", specifier = ">=1.26,<2.4" },
+    { name = "opt-einsum", specifier = ">=3.3" },
+    { name = "pandas", marker = "extra == 'server'", specifier = ">=2.0" },
+    { name = "pyarrow", marker = "extra == 'server'", specifier = ">=15.0" },
+    { name = "pydantic", specifier = ">=2.0" },
+    { name = "pydantic-settings", marker = "extra == 'server'", specifier = ">=2.0" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
+    { name = "pytest-asyncio", marker = "extra == 'dev'", specifier = ">=0.23" },
+    { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=5.0" },
+    { name = "pyyaml", marker = "extra == 'server'", specifier = ">=6.0" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.3" },
+    { name = "scikit-learn", marker = "extra == 'server'", specifier = ">=1.8.0" },
+    { name = "tos", marker = "extra == 'server'", specifier = ">=2.7" },
+    { name = "typer", extras = ["all"], specifier = ">=0.12" },
+    { name = "typst", marker = "extra == 'server'", specifier = ">=0.12" },
+    { name = "uvicorn", marker = "extra == 'server'", specifier = ">=0.29" },
 ]
+provides-extras = ["dev", "server"]
 
 [[package]]
 name = "h11"
@@ -121,7 +148,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "gaia-lang", specifier = ">=0.3.0" }]
+requires-dist = [{ name = "gaia-lang", editable = "../Gaia" }]
 
 [[package]]
 name = "httpcore"
