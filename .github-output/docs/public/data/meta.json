@@ -1,0 +1,6 @@
+{
+  "package_name": "h3s_superconductivity",
+  "namespace": "github",
+  "name": "h3s-superconductivity-gaia",
+  "description": "Gaia knowledge package: Conventional superconductivity at 203 K in sulfur hydride (Drozdov et al., Nature 525, 73, 2015; arXiv:1412.0460)"
+}

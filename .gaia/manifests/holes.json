@@ -111,7 +111,7 @@
       ]
     }
   ],
-  "ir_hash": "sha256:fbefc585df6dfe7368423255192f054b093f7f6ca984117de8134291821a8e60",
+  "ir_hash": "sha256:eca6bbabb06f46f4a16f01295ae545ef56eed90d220866c436897b69a8208417",
   "manifest_schema_version": 1,
   "package": "h3s-superconductivity",
   "version": "0.1.0"

@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:fbefc585df6dfe7368423255192f054b093f7f6ca984117de8134291821a8e60",
+  "ir_hash": "sha256:eca6bbabb06f46f4a16f01295ae545ef56eed90d220866c436897b69a8208417",
   "knowledges": [
     {
       "content": "Bardeen-Cooper-Schrieffer (BCS) theory: phonon-mediated electron-electron attraction leads to Cooper pairing. The Eliashberg formulation puts no apparent bounds on Tc. High Tc requires: (1) high-frequency phonons, (2) strong electron-phonon coupling, (3) high density of states.",
@@ -1081,8 +1081,7 @@
       "conclusion": "github:h3s_superconductivity::low_tc_agrees_with_theory",
       "metadata": {
         "prior": 0.8,
-        "reason": "The experimentally observed Tc range (@low_tc_pressure_dependence) is broadly consistent with the ab initio prediction of Tc ~ 80 K (@h2s_theory_prediction), supporting that the low-Tc route represents conventional superconductivity in H₂S phases.",
-        "reverse_reason": ""
+        "reason": "The experimentally observed Tc range (@low_tc_pressure_dependence) is broadly consistent with the ab initio prediction of Tc ~ 80 K (@h2s_theory_prediction), supporting that the low-Tc route represents conventional superconductivity in H₂S phases."
       },
       "premises": [
         "github:h3s_superconductivity::low_tc_pressure_dependence",
@@ -1123,8 +1122,7 @@
       "conclusion": "github:h3s_superconductivity::high_tc_not_predicted",
       "metadata": {
         "prior": 0.75,
-        "reason": "The transient 30 K step (@accompanying_30k_step) that disappears with time while the 190 K step sharpens is consistent with a kinetically-controlled chemical transformation producing the high-Tc phase — supporting the conclusion that H₂S decomposition is involved.",
-        "reverse_reason": ""
+        "reason": "The transient 30 K step (@accompanying_30k_step) that disappears with time while the 190 K step sharpens is consistent with a kinetically-controlled chemical transformation producing the high-Tc phase — supporting the conclusion that H₂S decomposition is involved."
       },
       "premises": [
         "github:h3s_superconductivity::accompanying_30k_step"
@@ -1214,8 +1212,7 @@
       "conclusion": "github:h3s_superconductivity::sulfur_tc_too_low",
       "metadata": {
         "prior": 0.95,
-        "reason": "Direct measurements of elemental sulfur Tc (@sulfur_sc) under comparable pressure conditions show values well below 190 K, ruling out sulfur as the sole source of the high-Tc phase.",
-        "reverse_reason": ""
+        "reason": "Direct measurements of elemental sulfur Tc (@sulfur_sc) under comparable pressure conditions show values well below 190 K, ruling out sulfur as the sole source of the high-Tc phase."
       },
       "premises": [
         "github:h3s_superconductivity::sulfur_sc"

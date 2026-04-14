@@ -1,0 +1,33 @@
+{
+  "package_name": "h3s_superconductivity",
+  "generated_at": "2026-04-14T01:11:21.382316+00:00",
+  "wiki_pages": [
+    "Home.md",
+    "Module-Root.md",
+    "Module-background.md",
+    "Module-discovery.md",
+    "Module-implications.md",
+    "Module-interpretation.md",
+    "Module-metallization.md",
+    "Inference-Results.md"
+  ],
+  "pages_sections": [
+    "background.md",
+    "metallization.md",
+    "discovery.md",
+    "interpretation.md",
+    "implications.md"
+  ],
+  "assets": [
+    "paper.md"
+  ],
+  "exported_conclusions": [
+    "conventional_sc_above_200k",
+    "high_tc_is_h3s",
+    "hydrogen_materials_prospect",
+    "superconductivity_confirmed"
+  ],
+  "total_claims": 26,
+  "total_beliefs": 31,
+  "readme_placeholders": []
+}

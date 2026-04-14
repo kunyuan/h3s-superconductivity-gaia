@@ -1,0 +1,924 @@
+{
+  "modules": [
+    {
+      "id": "background",
+      "order": 0,
+      "node_count": 11,
+      "strategy_count": 2
+    },
+    {
+      "id": "metallization",
+      "order": 1,
+      "node_count": 4,
+      "strategy_count": 3
+    },
+    {
+      "id": "discovery",
+      "order": 2,
+      "node_count": 7,
+      "strategy_count": 3
+    },
+    {
+      "id": "interpretation",
+      "order": 3,
+      "node_count": 7,
+      "strategy_count": 4
+    },
+    {
+      "id": "implications",
+      "order": 4,
+      "node_count": 2,
+      "strategy_count": 2
+    }
+  ],
+  "cross_module_edges": [
+    {
+      "from_module": "background",
+      "to_module": "implications",
+      "count": 1
+    },
+    {
+      "from_module": "background",
+      "to_module": "interpretation",
+      "count": 2
+    },
+    {
+      "from_module": "background",
+      "to_module": "metallization",
+      "count": 1
+    },
+    {
+      "from_module": "discovery",
+      "to_module": "implications",
+      "count": 1
+    },
+    {
+      "from_module": "discovery",
+      "to_module": "interpretation",
+      "count": 1
+    },
+    {
+      "from_module": "interpretation",
+      "to_module": "implications",
+      "count": 1
+    }
+  ],
+  "nodes": [
+    {
+      "id": "github:h3s_superconductivity::bcs_theory",
+      "label": "bcs_theory",
+      "title": "BCS Theory",
+      "type": "setting",
+      "module": "background",
+      "content": "Bardeen-Cooper-Schrieffer (BCS) theory: phonon-mediated electron-electron attraction leads to Cooper pairing. The Eliashberg formulation puts no apparent bounds on Tc. High Tc requires: (1) high-frequency phonons, (2) strong electron-phonon coupling, (3) high density of states.",
+      "prior": null,
+      "belief": null,
+      "exported": false,
+      "metadata": {}
+    },
+    {
+      "id": "github:h3s_superconductivity::cuprate_record",
+      "label": "cuprate_record",
+      "title": "Cuprate Tc Record",
+      "type": "setting",
+      "module": "background",
+      "content": "Prior to this work, the highest superconducting transition temperatures were in cuprates: Tc = 133 K at ambient pressure (HgBa₂Ca₂Cu₃O₈₊δ) and 164 K under high pressure. Cuprate superconductivity is unconventional — its mechanism remains undisclosed.",
+      "prior": null,
+      "belief": null,
+      "exported": false,
+      "metadata": {}
+    },
+    {
+      "id": "github:h3s_superconductivity::conventional_tc_limit",
+      "label": "conventional_tc_limit",
+      "title": "Conventional Tc Limit Before This Work",
+      "type": "setting",
+      "module": "background",
+      "content": "The highest Tc achieved through conventional (BCS-type) superconductor search prior to this work was 39 K in MgB₂. A common preconception held that Tc ~ 30 K is the maximum achievable in conventional superconductors.",
+      "prior": null,
+      "belief": null,
+      "exported": false,
+      "metadata": {}
+    },
+    {
+      "id": "github:h3s_superconductivity::diamond_anvil_cell",
+      "label": "diamond_anvil_cell",
+      "title": "Diamond Anvil Cell Technique",
+      "type": "setting",
+      "module": "background",
+      "content": "Diamond anvil cell (DAC) enables static high-pressure experiments up to hundreds of GPa. The sample (diameter ~10 μm, thickness ~1 μm) is clamped in a metallic gasket between diamond anvils. Resistance is measured by four-probe Van der Pauw method with sputtered Ti/Au electrodes insulated from the gasket by Teflon or NaCl.",
+      "prior": null,
+      "belief": null,
+      "exported": false,
+      "metadata": {}
+    },
+    {
+      "id": "github:h3s_superconductivity::ashcroft_hydrogen",
+      "label": "ashcroft_hydrogen",
+      "title": "Ashcroft Hydrogen Hypothesis",
+      "type": "claim",
+      "module": "background",
+      "content": "Ashcroft (1968) predicted that metallic hydrogen would be a high-temperature superconductor due to: (1) very high vibrational frequencies from the light hydrogen atom, (2) strong electron-phonon interaction, and (3) covalent bonding. Subsequent calculations predict Tc = 100–240 K for molecular hydrogen and 300–350 K for the atomic phase at 500 GPa.",
+      "prior": 0.95,
+      "belief": 0.95,
+      "exported": false,
+      "metadata": {
+        "prior": 0.95,
+        "prior_justification": "Widely cited prediction (1968); supported by decades of calculations."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::hydrogen_dominant_alloys",
+      "label": "hydrogen_dominant_alloys",
+      "title": "Hydrogen-Dominant Alloy Prediction",
+      "type": "claim",
+      "module": "background",
+      "content": "Ashcroft (2004) proposed that hydrogen-dominant metallic alloys (covalent hydrides such as SiH₄, SnH₄) could also be high-Tc superconductors: they share hydrogen's high Debye temperature while requiring lower metallization pressures than pure hydrogen. Heavier elements may additionally contribute low-frequency modes that enhance electron-phonon coupling.",
+      "prior": null,
+      "belief": 0.97357595,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "ashcroft_hydrogen",
+              "bcs_theory"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::h2s_theory_prediction",
+      "label": "h2s_theory_prediction",
+      "title": "Li et al. H₂S Tc Prediction",
+      "type": "claim",
+      "module": "background",
+      "content": "Li et al. (2014) predicted from ab initio calculations that H₂S metallizes at ~96 GPa and becomes a superconductor with Tc ~ 80 K at 160 GPa. At P > 130 GPa, new stable structures were found. Precipitation of sulfur was predicted to be 'very unlikely.'",
+      "prior": 0.8,
+      "belief": 0.7164131284047132,
+      "exported": false,
+      "metadata": {
+        "prior": 0.8,
+        "prior_justification": "Ab initio DFT prediction; structure search may miss lower-energy phases."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::silane_tc",
+      "label": "silane_tc",
+      "title": "Prior Hydride Tc Record",
+      "type": "claim",
+      "module": "background",
+      "content": "Prior to this work, only moderate Tc ~ 17 K had been observed experimentally in hydrogen-dominant materials (superconductivity in silane, SiH₄, by Eremets et al. 2008), far below theoretical predictions of Tc = 100–235 K for various hydrides.",
+      "prior": 0.9,
+      "belief": 0.9,
+      "exported": false,
+      "metadata": {
+        "prior": 0.9,
+        "prior_justification": "Published result (Eremets 2008); some debate on whether SiH₄ was pure phase."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::sulfur_sc",
+      "label": "sulfur_sc",
+      "title": "Sulfur Superconductivity",
+      "type": "claim",
+      "module": "background",
+      "content": "Elemental sulfur becomes metallic above 95 GPa and is a superconductor, but with a low Tc (measured values shown in Fig. 2a as dark yellow points). Sulfur superconductivity alone cannot explain the high Tc observed in H₂S samples.",
+      "prior": 0.95,
+      "belief": 0.9091692107454229,
+      "exported": false,
+      "metadata": {
+        "prior": 0.95,
+        "prior_justification": "Well-established; measured independently by multiple groups."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::h2s_chosen_for_study",
+      "label": "h2s_chosen_for_study",
+      "title": "H₂S Selected for Experiment",
+      "type": "claim",
+      "module": "background",
+      "content": "H₂S was selected as the experimental target because: (1) it is relatively easy to handle, (2) it transforms to metal at a comparatively low pressure of ~100 GPa, and (3) the predicted Tc = 80 K is high enough to motivate experimental verification.",
+      "prior": null,
+      "belief": 0.8127988412852757,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "h2s_theory_prediction",
+              "hydrogen_dominant_alloys",
+              "silane_tc"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::main_question",
+      "label": "main_question",
+      "title": "Main Question: High-Tc in Sulfur Hydride",
+      "type": "question",
+      "module": "background",
+      "content": "Can sulfur hydride (H₂S) under high pressure achieve superconducting transition temperatures significantly beyond those predicted by Li et al. (Tc ~ 80 K), and if so, what mechanism underlies the enhancement?",
+      "prior": null,
+      "belief": null,
+      "exported": false,
+      "metadata": {}
+    },
+    {
+      "id": "github:h3s_superconductivity::h2s_metallization",
+      "label": "h2s_metallization",
+      "title": "H₂S Metallization at 90 GPa",
+      "type": "claim",
+      "module": "metallization",
+      "content": "H₂S starts to conduct at P ~ 50 GPa (semiconductor with photoconductivity). At 90–100 GPa, the temperature dependence becomes metallic and photoconductivity disappears. H₂S is a poor metal: resistivity ρ ~ 3×10⁻⁵ Ω·m at 110 GPa, decreasing to ρ ~ 3×10⁻⁷ Ω·m at ~200 GPa.",
+      "prior": 0.95,
+      "belief": 0.9449932873014207,
+      "exported": false,
+      "metadata": {
+        "prior": 0.95,
+        "prior_justification": "Direct resistance and photoconductivity measurements in DAC."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::low_tc_onset",
+      "label": "low_tc_onset",
+      "title": "Low-Tc Onset at 23 K",
+      "type": "claim",
+      "module": "metallization",
+      "content": "When the metallic H₂S phase is cooled to 4 K at ~100 GPa, the resistance drops abruptly by 3–4 orders of magnitude at Tc ~ 23 K, indicating the onset of superconductivity.",
+      "prior": null,
+      "belief": 0.9681364090950809,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "h2s_metallization"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::low_tc_pressure_dependence",
+      "label": "low_tc_pressure_dependence",
+      "title": "Low-Tc Pressure Dependence",
+      "type": "claim",
+      "module": "metallization",
+      "content": "In the low-temperature route (pressure applied at 100–150 K), Tc increases with pressure from ~23 K at 100 GPa, with sharp growth approaching 200 GPa, reaching up to ~150 K at ~200 GPa.",
+      "prior": null,
+      "belief": 0.9791968960964391,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "diamond_anvil_cell",
+              "low_tc_onset"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::low_tc_agrees_with_theory",
+      "label": "low_tc_agrees_with_theory",
+      "title": "Low-Tc Route Agrees with H₂S Theory",
+      "type": "claim",
+      "module": "metallization",
+      "content": "The low-temperature route Tc values (up to ~150 K at ~200 GPa) are in reasonable agreement with Li et al.'s prediction of Tc ~ 80 K for H₂S. The experimental values exceed the prediction, and the pressure dependence differs (no predicted drop of Tc at 160 GPa), but the overall scale and trend are consistent with H₂S-phase superconductivity.",
+      "prior": null,
+      "belief": 0.7092328085890325,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "h2s_theory_prediction",
+              "low_tc_pressure_dependence"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::high_tc_discovery",
+      "label": "high_tc_discovery",
+      "title": "High-Tc Discovery at 190–203 K",
+      "type": "claim",
+      "module": "discovery",
+      "content": "A second superconducting state with Tc ~ 190 K (arXiv v1) / 203 K (Nature) is found by applying pressure P > 150 GPa at temperatures T > 220 K (high-temperature route). This Tc has weak pressure dependence — qualitatively different from the low-T route.",
+      "prior": 0.9,
+      "belief": 0.9261495089067799,
+      "exported": false,
+      "metadata": {
+        "prior": 0.9,
+        "prior_justification": "Resistance drops to sub-copper levels; reproduced in multiple runs. Sample inhomogeneity and pressure gradients add some uncertainty."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::high_tc_not_predicted",
+      "label": "high_tc_not_predicted",
+      "title": "High-Tc Not Predicted for H₂S",
+      "type": "claim",
+      "module": "discovery",
+      "content": "The high-Tc state (Tc ~ 190 K) is NOT seen or predicted in the Li et al. calculations for H₂S. The requirement of high temperature (T > 220 K) during pressurization suggests a chemical transformation (decomposition of H₂S) is involved in reaching this state.",
+      "prior": null,
+      "belief": 0.9770427866836935,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "accompanying_30k_step",
+              "high_tc_discovery"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::accompanying_30k_step",
+      "label": "accompanying_30k_step",
+      "title": "Accompanying 30 K Step and Oscillations",
+      "type": "claim",
+      "module": "discovery",
+      "content": "The 190 K superconducting step is frequently accompanied by a second step at Tc ~ 30 K, which disappears with time (>1 day) or further pressure application while the 190 K step sharpens. R(T) oscillations with a period of 25–30 K are observed in multiple runs.",
+      "prior": 0.85,
+      "belief": 0.8455106952383074,
+      "exported": false,
+      "metadata": {
+        "prior": 0.85,
+        "prior_justification": "Observed in multiple runs; transient nature makes systematic study difficult."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::resistivity_proof",
+      "label": "resistivity_proof",
+      "title": "Resistivity Far Below Copper",
+      "type": "claim",
+      "module": "discovery",
+      "content": "The minimum resistance in the high-Tc state corresponds to resistivity ρ ≤ 10⁻¹¹ Ω·m — about two orders of magnitude less than pure copper at the same temperature. At 144 K specifically: ρ = 1.7×10⁻¹⁰ Ω·m, which is 50 times lower than copper (ρ_Cu = 70×10⁻¹⁰ Ω·m at 150 K).",
+      "prior": 0.95,
+      "belief": 0.95,
+      "exported": false,
+      "metadata": {
+        "prior": 0.95,
+        "prior_justification": "ρ = 1.7×10⁻¹⁰ Ω·m, 50× below copper; measurement well-calibrated."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::magnetic_field_proof",
+      "label": "magnetic_field_proof",
+      "title": "Magnetic Field Suppression of Tc",
+      "type": "claim",
+      "module": "discovery",
+      "content": "Tc shifts to lower temperatures with magnetic field up to 7 Tesla for both superconducting states. Extrapolation using Hc(T) = Hc0·(1 − (T/Tc)²) gives estimated upper critical fields: Hc2 ~ 25 T for the Tc ~ 60 K state and Hc2 ~ 70 T for the Tc ~ 185 K state. The high Hc2 is characteristic of a type-II superconductor.",
+      "prior": 0.9,
+      "belief": 0.9,
+      "exported": false,
+      "metadata": {
+        "prior": 0.9,
+        "prior_justification": "Clear Tc shift with field up to 7 T; Hc2 extrapolation adds uncertainty."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::isotope_effect",
+      "label": "isotope_effect",
+      "title": "Strong Isotope Effect in D₂S",
+      "type": "claim",
+      "module": "discovery",
+      "content": "Deuterium substitution (D₂S) shows a strong isotope effect: H₂S Tc ~ 60 K → D₂S Tc ~ 30 K, and H₂S Tc ~ 185 K → D₂S Tc ~ 90 K. The isotope exponent α ≈ 0.5, matching the BCS prediction Tc ∝ M^(−α) with α = 0.5 for the phonon mechanism. This confirms phonon-mediated (conventional BCS) superconductivity.",
+      "prior": 0.92,
+      "belief": 0.92,
+      "exported": false,
+      "metadata": {
+        "prior": 0.92,
+        "prior_justification": "α ≈ 0.5 matches BCS; D₂S purity 97% introduces slight uncertainty."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::superconductivity_confirmed",
+      "label": "superconductivity_confirmed",
+      "title": "Superconductivity Confirmed by Three Proofs",
+      "type": "claim",
+      "module": "discovery",
+      "content": "The observed resistance drops represent genuine superconducting transitions, confirmed by three independent lines of evidence: (1) resistivity far below copper, (2) magnetic field suppression of Tc, and (3) a strong isotope effect consistent with BCS theory. The high-Tc state at ~190–203 K is a conventional (phonon-mediated) superconductor.",
+      "prior": null,
+      "belief": 0.8918351458268,
+      "exported": true,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "isotope_effect",
+              "magnetic_field_proof",
+              "resistivity_proof"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::no_h2_vibron",
+      "label": "no_h2_vibron",
+      "title": "No H₂ Vibron in Raman",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "The strong characteristic vibron of molecular H₂ was never observed in Raman spectra despite using a sensitive spectrometer and ultralow luminescence synthetic diamond anvils. This rules out simple decomposition H₂S → H₂ + S.",
+      "prior": 0.9,
+      "belief": 0.9,
+      "exported": false,
+      "metadata": {
+        "prior": 0.9,
+        "prior_justification": "Sensitive spectrometer + ultralow-luminescence anvils; absence is definitive for bulk but cannot rule out trace amounts."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::h2s_decomposition_not_to_h2",
+      "label": "h2s_decomposition_not_to_h2",
+      "title": "H₂S Does Not Decompose to H₂ + S",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "The decomposition reaction H₂S → H₂ + S is ruled out by two independent lines of evidence: (1) no H₂ vibron observed in Raman, and (2) Li et al. calculations showed this reaction is 'energetically very unfavorable.'",
+      "prior": null,
+      "belief": 0.821275057040929,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "h2s_theory_prediction",
+              "no_h2_vibron"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::sulfur_tc_too_low",
+      "label": "sulfur_tc_too_low",
+      "title": "Sulfur Tc Too Low",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "Elemental sulfur precipitates from H₂S at P > 27 GPa. While sulfur is metallic and superconducting above 95 GPa, its Tc values (measured in this work, Fig. 2a dark yellow points) are far too low to explain the 190 K transition. Sulfur alone cannot be the source of the high-Tc state.",
+      "prior": null,
+      "belief": 0.9083078925457694,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "sulfur_sc"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::h3s_formation_hypothesis",
+      "label": "h3s_formation_hypothesis",
+      "title": "H₃S Formation Hypothesis",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "The dissociation of H₂S under high pressure and temperature produces higher sulfur hydrides HₙS (n > 2) rather than H₂ + S. Proposed reactions: 2H₂S → H₄S + S, or 3H₂S → H₆S + S. These are plausible because sulfur has valency 2, 4, and 6; H₄S and H₆S are thermodynamically unstable but kinetically stable at ambient pressure, and high pressure may stabilize them.",
+      "prior": null,
+      "belief": 0.8631019067469314,
+      "exported": false,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "h2s_decomposition_not_to_h2",
+              "high_tc_not_predicted",
+              "sulfur_tc_too_low"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::duan_prediction",
+      "label": "duan_prediction",
+      "title": "Duan et al. H₃S Prediction",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "Duan et al. (2014) studied the van der Waals compound (H₂S)₂H₂ and predicted: (1) above 111 GPa, H₃S molecular units form; (2) above 180 GPa, sulfur coordination number reaches 6; (3) Tc ~ 160 K and ~190 K for these two phases. These predictions closely match the experimental observations.",
+      "prior": 0.75,
+      "belief": 0.75,
+      "exported": false,
+      "metadata": {
+        "prior": 0.75,
+        "prior_justification": "Predicted Tc ~ 190 K for H₃S; structure search state-of-art but not exhaustive."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::raman_phase_transition",
+      "label": "raman_phase_transition",
+      "title": "Raman Phase Transition at 180 GPa",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "Raman measurements of the sample with Tc ~ 190 K show a phase transformation at ~180 GPa upon pressure release. This matches the predicted structural transition in Duan et al.'s calculations and is distinct from elemental sulfur's phase transition at ~160 GPa.",
+      "prior": 0.85,
+      "belief": 0.85,
+      "exported": false,
+      "metadata": {
+        "prior": 0.85,
+        "prior_justification": "Clear spectral changes at 180 GPa; pressure determination via diamond edge scale has ~5 GPa uncertainty."
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::high_tc_is_h3s",
+      "label": "high_tc_is_h3s",
+      "title": "High-Tc Phase Identified as H₃S",
+      "type": "claim",
+      "module": "interpretation",
+      "content": "The high-Tc superconductivity at ~190–203 K is attributed to H₃S (trihydrogen sulfide) formed by dissociation of H₂S under pressure. This identification is supported by: (1) theoretical predictions from Duan et al. matching both the Tc values and structural transitions, (2) Raman evidence of a phase transition at 180 GPa consistent with H₃S, and (3) elimination of alternative explanations (pure H₂S, elemental sulfur, H₂ + S decomposition).",
+      "prior": null,
+      "belief": 0.7742388649211137,
+      "exported": true,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "duan_prediction",
+              "h3s_formation_hypothesis",
+              "raman_phase_transition"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::conventional_sc_above_200k",
+      "label": "conventional_sc_above_200k",
+      "title": "Conventional SC Above 200 K",
+      "type": "claim",
+      "module": "implications",
+      "content": "Conventional (phonon-mediated, BCS-type) superconductivity has been demonstrated above 190 K (arXiv) / 203 K (Nature) — the highest Tc for any superconductor at the time of publication. This breaks the long-standing preconception that BCS superconductors are limited to Tc ~ 30 K and surpasses even the cuprate record of 164 K under pressure.",
+      "prior": null,
+      "belief": 0.8440217435160817,
+      "exported": true,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "high_tc_is_h3s",
+              "superconductivity_confirmed"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "github:h3s_superconductivity::hydrogen_materials_prospect",
+      "label": "hydrogen_materials_prospect",
+      "title": "Prospect for Hydrogen-Based Superconductors",
+      "type": "claim",
+      "module": "implications",
+      "content": "Since H₂S has only a moderate hydrogen content, high-Tc superconductivity can be expected in a wide range of hydrogen-containing materials. Candidates include carbon-based materials (fullerenes, aromatic hydrocarbons, graphanes) which could potentially be turned superconducting by doping or gating instead of extreme pressure. Hydrogen atoms are essential for providing high-frequency phonon modes and strong electron-phonon coupling.",
+      "prior": null,
+      "belief": 0.8994074832082722,
+      "exported": true,
+      "metadata": {
+        "gaia": {
+          "provenance": {
+            "referenced_claims": [
+              "ashcroft_hydrogen",
+              "bcs_theory",
+              "conventional_sc_above_200k"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "strat_0",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "background",
+      "reason": ""
+    },
+    {
+      "id": "strat_1",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "background",
+      "reason": ""
+    },
+    {
+      "id": "strat_2",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "metallization",
+      "reason": ""
+    },
+    {
+      "id": "strat_3",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "metallization",
+      "reason": ""
+    },
+    {
+      "id": "strat_4",
+      "type": "strategy",
+      "strategy_type": "support",
+      "module": "metallization",
+      "reason": ""
+    },
+    {
+      "id": "strat_5",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "discovery",
+      "reason": ""
+    },
+    {
+      "id": "strat_6",
+      "type": "strategy",
+      "strategy_type": "support",
+      "module": "discovery",
+      "reason": ""
+    },
+    {
+      "id": "strat_7",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "discovery",
+      "reason": ""
+    },
+    {
+      "id": "strat_8",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "interpretation",
+      "reason": ""
+    },
+    {
+      "id": "strat_9",
+      "type": "strategy",
+      "strategy_type": "support",
+      "module": "interpretation",
+      "reason": ""
+    },
+    {
+      "id": "strat_10",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "interpretation",
+      "reason": ""
+    },
+    {
+      "id": "strat_11",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "interpretation",
+      "reason": ""
+    },
+    {
+      "id": "strat_12",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "implications",
+      "reason": ""
+    },
+    {
+      "id": "strat_13",
+      "type": "strategy",
+      "strategy_type": "deduction",
+      "module": "implications",
+      "reason": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "github:h3s_superconductivity::ashcroft_hydrogen",
+      "target": "strat_0",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::bcs_theory",
+      "target": "strat_0",
+      "role": "background"
+    },
+    {
+      "source": "strat_0",
+      "target": "github:h3s_superconductivity::hydrogen_dominant_alloys",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::hydrogen_dominant_alloys",
+      "target": "strat_1",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::h2s_theory_prediction",
+      "target": "strat_1",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::silane_tc",
+      "target": "strat_1",
+      "role": "premise"
+    },
+    {
+      "source": "strat_1",
+      "target": "github:h3s_superconductivity::h2s_chosen_for_study",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::h2s_metallization",
+      "target": "strat_2",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::diamond_anvil_cell",
+      "target": "strat_2",
+      "role": "background"
+    },
+    {
+      "source": "strat_2",
+      "target": "github:h3s_superconductivity::low_tc_onset",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::low_tc_onset",
+      "target": "strat_3",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::diamond_anvil_cell",
+      "target": "strat_3",
+      "role": "background"
+    },
+    {
+      "source": "strat_3",
+      "target": "github:h3s_superconductivity::low_tc_pressure_dependence",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::low_tc_pressure_dependence",
+      "target": "strat_4",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::h2s_theory_prediction",
+      "target": "strat_4",
+      "role": "premise"
+    },
+    {
+      "source": "strat_4",
+      "target": "github:h3s_superconductivity::low_tc_agrees_with_theory",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::high_tc_discovery",
+      "target": "strat_5",
+      "role": "premise"
+    },
+    {
+      "source": "strat_5",
+      "target": "github:h3s_superconductivity::high_tc_not_predicted",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::accompanying_30k_step",
+      "target": "strat_6",
+      "role": "premise"
+    },
+    {
+      "source": "strat_6",
+      "target": "github:h3s_superconductivity::high_tc_not_predicted",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::resistivity_proof",
+      "target": "strat_7",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::magnetic_field_proof",
+      "target": "strat_7",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::isotope_effect",
+      "target": "strat_7",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::diamond_anvil_cell",
+      "target": "strat_7",
+      "role": "background"
+    },
+    {
+      "source": "strat_7",
+      "target": "github:h3s_superconductivity::superconductivity_confirmed",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::no_h2_vibron",
+      "target": "strat_8",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::h2s_theory_prediction",
+      "target": "strat_8",
+      "role": "premise"
+    },
+    {
+      "source": "strat_8",
+      "target": "github:h3s_superconductivity::h2s_decomposition_not_to_h2",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::sulfur_sc",
+      "target": "strat_9",
+      "role": "premise"
+    },
+    {
+      "source": "strat_9",
+      "target": "github:h3s_superconductivity::sulfur_tc_too_low",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::high_tc_not_predicted",
+      "target": "strat_10",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::h2s_decomposition_not_to_h2",
+      "target": "strat_10",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::sulfur_tc_too_low",
+      "target": "strat_10",
+      "role": "premise"
+    },
+    {
+      "source": "strat_10",
+      "target": "github:h3s_superconductivity::h3s_formation_hypothesis",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::h3s_formation_hypothesis",
+      "target": "strat_11",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::duan_prediction",
+      "target": "strat_11",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::raman_phase_transition",
+      "target": "strat_11",
+      "role": "premise"
+    },
+    {
+      "source": "strat_11",
+      "target": "github:h3s_superconductivity::high_tc_is_h3s",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::superconductivity_confirmed",
+      "target": "strat_12",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::high_tc_is_h3s",
+      "target": "strat_12",
+      "role": "premise"
+    },
+    {
+      "source": "strat_12",
+      "target": "github:h3s_superconductivity::conventional_sc_above_200k",
+      "role": "conclusion"
+    },
+    {
+      "source": "github:h3s_superconductivity::conventional_sc_above_200k",
+      "target": "strat_13",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::ashcroft_hydrogen",
+      "target": "strat_13",
+      "role": "premise"
+    },
+    {
+      "source": "github:h3s_superconductivity::bcs_theory",
+      "target": "strat_13",
+      "role": "background"
+    },
+    {
+      "source": "strat_13",
+      "target": "github:h3s_superconductivity::hydrogen_materials_prospect",
+      "role": "conclusion"
+    }
+  ]
+}
