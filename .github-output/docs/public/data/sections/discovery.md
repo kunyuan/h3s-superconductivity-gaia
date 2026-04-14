@@ -8,6 +8,8 @@
 **Content:** A second superconducting state with Tc ~ 190 K (arXiv v1) / 203 K (Nature) is found by applying pressure P > 150 GPa at temperatures T > 220 K (high-temperature route). This Tc has weak pressure dependence — qualitatively different from the low-T route.
 **Prior:** 0.90
 **Belief:** 0.93
+**figure:** artifacts/images/fig2-pressure-tc-phase-diagram.png
+**caption:** Fig. 2b | Higher Tc ~ 190 K found when P > 150 GPa was applied at 220–300 K. Wine points show the accompanying 30 K step. Red point is Tc for D₂S sample.
 **prior:** 0.9
 **prior_justification:** Resistance drops to sub-copper levels; reproduced in multiple runs. Sample inhomogeneity and pressure gradients add some uncertainty.
 **Referenced by:** deduction -> `github:h3s_superconductivity::high_tc_not_predicted`
@@ -34,6 +36,8 @@
 **Content:** The 190 K superconducting step is frequently accompanied by a second step at Tc ~ 30 K, which disappears with time (>1 day) or further pressure application while the 190 K step sharpens. R(T) oscillations with a period of 25–30 K are observed in multiple runs.
 **Prior:** 0.85
 **Belief:** 0.85
+**figure:** artifacts/images/ext-fig3-190k-step-evolution.png
+**caption:** Extended Data Fig. 3 | Transformation of the superconducting state in H₂S with pressure, temperature and time. The step at ~180 K developed at the cooling line, became more pronounced with time (15 hours).
 **prior:** 0.85
 **prior_justification:** Observed in multiple runs; transient nature makes systematic study difficult.
 **Referenced by:** support -> `github:h3s_superconductivity::high_tc_not_predicted`
@@ -46,6 +50,8 @@
 **Content:** The minimum resistance in the high-Tc state corresponds to resistivity ρ ≤ 10⁻¹¹ Ω·m — about two orders of magnitude less than pure copper at the same temperature. At 144 K specifically: ρ = 1.7×10⁻¹⁰ Ω·m, which is 50 times lower than copper (ρ_Cu = 70×10⁻¹⁰ Ω·m at 150 K).
 **Prior:** 0.95
 **Belief:** 0.95
+**figure:** artifacts/images/ext-fig3-190k-step-evolution.png
+**caption:** Extended Data Fig. 3 | Minimum resistance R = 1.7×10⁻⁶ Ω at 144 K (inset). Corresponding resistivity ρ ~ 1.7×10⁻¹⁰ Ω·m, ~50× lower than copper.
 **prior:** 0.95
 **prior_justification:** ρ = 1.7×10⁻¹⁰ Ω·m, 50× below copper; measurement well-calibrated.
 **Referenced by:** deduction -> `github:h3s_superconductivity::superconductivity_confirmed`
@@ -58,6 +64,8 @@
 **Content:** Tc shifts to lower temperatures with magnetic field up to 7 Tesla for both superconducting states. Extrapolation using Hc(T) = Hc0·(1 − (T/Tc)²) gives estimated upper critical fields: Hc2 ~ 25 T for the Tc ~ 60 K state and Hc2 ~ 70 T for the Tc ~ 185 K state. The high Hc2 is characteristic of a type-II superconductor.
 **Prior:** 0.90
 **Belief:** 0.90
+**figure:** artifacts/images/fig3-magnetic-field-dependence.png
+**caption:** Fig. 3 | Temperature dependence of resistance at different magnetic fields. (a) ~60 K step at 155 GPa. (b) ~185 K step at 195 GPa. (c) Extrapolation of Hc2(T) to estimate critical fields ~25 T and ~70 T.
 **prior:** 0.9
 **prior_justification:** Clear Tc shift with field up to 7 T; Hc2 extrapolation adds uncertainty.
 **Referenced by:** deduction -> `github:h3s_superconductivity::superconductivity_confirmed`
@@ -70,6 +78,8 @@
 **Content:** Deuterium substitution (D₂S) shows a strong isotope effect: H₂S Tc ~ 60 K → D₂S Tc ~ 30 K, and H₂S Tc ~ 185 K → D₂S Tc ~ 90 K. The isotope exponent α ≈ 0.5, matching the BCS prediction Tc ∝ M^(−α) with α = 0.5 for the phonon mechanism. This confirms phonon-mediated (conventional BCS) superconductivity.
 **Prior:** 0.92
 **Belief:** 0.92
+**figure:** artifacts/images/ext-fig4-d2s-isotope.png
+**caption:** Extended Data Fig. 4 | Electrical measurements of sulfur deuteride at 163 GPa. R(T) measured at decreasing temperature showing Tc ~ 90 K, about half the H₂S value of ~185 K.
 **prior:** 0.92
 **prior_justification:** α ≈ 0.5 matches BCS; D₂S purity 97% introduces slight uncertainty.
 **Referenced by:** deduction -> `github:h3s_superconductivity::superconductivity_confirmed`

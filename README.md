@@ -80,6 +80,11 @@ The central interpretive claim of this work is that the superconducting phase wi
 - **Elimination of alternatives** (no H₂ vibron, belief 0.90; sulfur Tc too low, belief 0.91): Strong spectroscopic and thermodynamic evidence against H₂ + S decomposition; sulfur directly measured to have insufficient Tc.
 - **Weakest link** (Li et al. prediction, belief 0.72): The H₂S theory that anchors the comparison has moderate uncertainty from structure search limitations.
 
+| Evidence | Figure |
+|----------|--------|
+| Raman spectra — no H₂ vibron observed | ![Supplementary Fig. 1](artifacts/images/ext-fig1-raman-spectra.png) |
+| Raman phase transition at ~180 GPa vs sulfur at ~160 GPa | ![Extended Data Fig. 5](artifacts/images/ext-fig5-raman-sulfur-comparison.png) |
+
 > The belief of 0.77 reflects the absence of direct structural characterization (XRD) of the high-Tc phase. The identification relies entirely on indirect evidence — matching Tc values, elimination of alternatives, and Raman spectroscopy. Later work by Einaga et al. (2016) confirmed the Im-3m H₃S structure by XRD, but that evidence is not part of this paper.
 
 ### The observed transitions represent genuine superconductivity, confirmed by three independent proofs (belief: 0.89)
@@ -91,6 +96,12 @@ The paper establishes superconductivity through three complementary tests. First
 - **Magnetic field** (belief 0.90): Tc suppression clearly observed to 7 T; the uncertainty comes from the Hc2 extrapolation to ~70 T, which requires a large extrapolation from limited field range.
 - **Isotope effect** (belief 0.92): The strongest proof of BCS mechanism. D₂S purity of 97% introduces slight uncertainty; the α ≈ 0.5 value is within BCS expectation.
 
+| Evidence | Figure |
+|----------|--------|
+| Resistivity ρ ~ 1.7×10⁻¹⁰ Ω·m at 144 K, 50× below copper | ![Extended Data Fig. 3](artifacts/images/ext-fig3-190k-step-evolution.png) |
+| Magnetic field suppression of Tc, Hc2 extrapolation | ![Fig. 3](artifacts/images/fig3-magnetic-field-dependence.png) |
+| D₂S isotope effect: Tc halved (α ≈ 0.5) | ![Extended Data Fig. 4](artifacts/images/ext-fig4-d2s-isotope.png) |
+
 > The three proofs are independent and collectively provide very strong evidence. The main residual uncertainty is whether the resistance measurement geometry fully excludes filamentary conduction paths, but the magnitude of the drop (3–4 orders) and the coherent isotope effect make artifacts extremely unlikely.
 
 ### Conventional BCS-type superconductivity has been demonstrated above 200 K (belief: 0.84)
@@ -100,6 +111,11 @@ Combining the confirmation of phonon-mediated superconductivity (from the isotop
 **Evidence support:**
 - **Superconductivity confirmed** (belief 0.89): Strong three-proof evidence for genuine superconductivity.
 - **H₃S identification** (belief 0.77): Moderate confidence that the phase is indeed H₃S — this is the weaker link. If the phase were not H₃S but some other hydrogen-sulfur compound, the Tc record would still stand but the material identification would change.
+
+| Evidence | Figure |
+|----------|--------|
+| R(T) at multiple pressures — both routes | ![Fig. 1](artifacts/images/fig1-resistance-vs-temperature.png) |
+| P–Tc phase diagram showing two superconducting routes | ![Fig. 2](artifacts/images/fig2-pressure-tc-phase-diagram.png) |
 
 > This conclusion is robust in the sense that the superconductivity itself is well-established (belief 0.89), but the specific material identification introduces a modest uncertainty. The 203 K value reported in Nature is higher than the arXiv preprint's 190 K, reflecting additional magnetic susceptibility data in the published version.
 

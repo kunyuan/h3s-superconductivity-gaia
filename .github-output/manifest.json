@@ -1,6 +1,6 @@
 {
   "package_name": "h3s_superconductivity",
-  "generated_at": "2026-04-14T01:11:21.382316+00:00",
+  "generated_at": "2026-04-14T01:27:15.107232+00:00",
   "wiki_pages": [
     "Home.md",
     "Module-Root.md",
@@ -19,6 +19,16 @@
     "implications.md"
   ],
   "assets": [
+    "1412.0460.pdf",
+    "images/ext-fig1-raman-spectra.png",
+    "images/ext-fig2-low-tc-resistance.png",
+    "images/ext-fig3-190k-step-evolution.png",
+    "images/ext-fig4-d2s-isotope.png",
+    "images/ext-fig5-raman-sulfur-comparison.png",
+    "images/fig1-resistance-vs-temperature.png",
+    "images/fig2-pressure-tc-phase-diagram.png",
+    "images/fig3-magnetic-field-dependence.png",
+    "images/img-000.png",
     "paper.md"
   ],
   "exported_conclusions": [

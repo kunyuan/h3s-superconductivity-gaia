@@ -84,6 +84,8 @@
 **Content:** Elemental sulfur becomes metallic above 95 GPa and is a superconductor, but with a low Tc (measured values shown in Fig. 2a as dark yellow points). Sulfur superconductivity alone cannot explain the high Tc observed in H₂S samples.
 **Prior:** 0.95
 **Belief:** 0.91
+**figure:** artifacts/images/fig2-pressure-tc-phase-diagram.png
+**caption:** Fig. 2 | Pressure dependence of critical superconducting temperature Tc on pressure. Dark yellow points are Tc of pure sulfur, far below the H₂S/D₂S values.
 **prior:** 0.95
 **prior_justification:** Well-established; measured independently by multiple groups.
 **Referenced by:** support -> `github:h3s_superconductivity::sulfur_tc_too_low`

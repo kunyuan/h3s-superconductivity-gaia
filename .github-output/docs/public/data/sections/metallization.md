@@ -8,6 +8,8 @@
 **Content:** H₂S starts to conduct at P ~ 50 GPa (semiconductor with photoconductivity). At 90–100 GPa, the temperature dependence becomes metallic and photoconductivity disappears. H₂S is a poor metal: resistivity ρ ~ 3×10⁻⁵ Ω·m at 110 GPa, decreasing to ρ ~ 3×10⁻⁷ Ω·m at ~200 GPa.
 **Prior:** 0.95
 **Belief:** 0.94
+**figure:** artifacts/images/ext-fig2-low-tc-resistance.png
+**caption:** Extended Data Fig. 2 | Temperature dependence of resistance (superconducting steps). Corresponding Tc values are shown by blue points in Fig. 2.
 **prior:** 0.95
 **prior_justification:** Direct resistance and photoconductivity measurements in DAC.
 **Referenced by:** deduction -> `github:h3s_superconductivity::low_tc_onset`
@@ -21,6 +23,8 @@
 **Belief:** 0.97
 **Derived from:** deduction
 **Premises:** `github:h3s_superconductivity::h2s_metallization`
+**figure:** artifacts/images/fig1-resistance-vs-temperature.png
+**caption:** Fig. 1a | Temperature dependence of resistance of sulfur hydride at growing pressures. Bottom: resistance plots near zero showing the superconducting transition.
 **gaia:** {'provenance': {'referenced_claims': ['h2s_metallization']}}
 **Referenced by:** deduction -> `github:h3s_superconductivity::low_tc_pressure_dependence`
 
@@ -33,6 +37,8 @@
 **Belief:** 0.98
 **Derived from:** deduction
 **Premises:** `github:h3s_superconductivity::low_tc_onset`
+**figure:** artifacts/images/fig2-pressure-tc-phase-diagram.png
+**caption:** Fig. 2a | Pressure dependence of Tc for the low-temperature route. Black points from Fig. 1a, blue from other runs, red for D₂S, grey stars from Li et al. calculations.
 **gaia:** {'provenance': {'referenced_claims': ['diamond_anvil_cell', 'low_tc_onset']}}
 **Referenced by:** support -> `github:h3s_superconductivity::low_tc_agrees_with_theory`
 

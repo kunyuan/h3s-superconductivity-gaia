@@ -23,6 +23,12 @@ h2s_metallization = claim(
     "metal: resistivity ρ ~ 3×10⁻⁵ Ω·m at 110 GPa, decreasing to "
     "ρ ~ 3×10⁻⁷ Ω·m at ~200 GPa.",
     title="H₂S Metallization at 90 GPa",
+    figure="artifacts/images/ext-fig2-low-tc-resistance.png",
+    caption=(
+        "Extended Data Fig. 2 | Temperature dependence of resistance "
+        "(superconducting steps). Corresponding Tc values are shown by "
+        "blue points in Fig. 2."
+    ),
 )
 
 # ---------------------------------------------------------------------------
@@ -34,6 +40,12 @@ low_tc_onset = claim(
     "resistance drops abruptly by 3–4 orders of magnitude at "
     "Tc ~ 23 K, indicating the onset of superconductivity.",
     title="Low-Tc Onset at 23 K",
+    figure="artifacts/images/fig1-resistance-vs-temperature.png",
+    caption=(
+        "Fig. 1a | Temperature dependence of resistance of sulfur hydride "
+        "at growing pressures. Bottom: resistance plots near zero showing "
+        "the superconducting transition."
+    ),
 )
 
 deduction(
@@ -54,6 +66,12 @@ low_tc_pressure_dependence = claim(
     "increases with pressure from ~23 K at 100 GPa, with sharp growth "
     "approaching 200 GPa, reaching up to ~150 K at ~200 GPa.",
     title="Low-Tc Pressure Dependence",
+    figure="artifacts/images/fig2-pressure-tc-phase-diagram.png",
+    caption=(
+        "Fig. 2a | Pressure dependence of Tc for the low-temperature route. "
+        "Black points from Fig. 1a, blue from other runs, red for D₂S, "
+        "grey stars from Li et al. calculations."
+    ),
 )
 
 deduction(

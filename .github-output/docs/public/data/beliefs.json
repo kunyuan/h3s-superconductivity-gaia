@@ -1,12 +1,12 @@
 {
   "beliefs": [
     {
-      "belief": 0.8012170150275971,
+      "belief": 0.801217015027597,
       "knowledge_id": "github:h3s_superconductivity::__conjunction_result_13aa6b2f",
       "label": "__conjunction_result_13aa6b2f"
     },
     {
-      "belief": 0.6444822719331135,
+      "belief": 0.6444822719331134,
       "knowledge_id": "github:h3s_superconductivity::__conjunction_result_19cbc74b",
       "label": "__conjunction_result_19cbc74b"
     },
@@ -131,7 +131,7 @@
       "label": "h2s_theory_prediction"
     },
     {
-      "belief": 0.8631019067469314,
+      "belief": 0.8631019067469315,
       "knowledge_id": "github:h3s_superconductivity::h3s_formation_hypothesis",
       "label": "h3s_formation_hypothesis"
     },
@@ -156,7 +156,7 @@
       "label": "hydrogen_dominant_alloys"
     },
     {
-      "belief": 0.8994074832082722,
+      "belief": 0.8994074832082721,
       "knowledge_id": "github:h3s_superconductivity::hydrogen_materials_prospect",
       "label": "hydrogen_materials_prospect"
     },
@@ -211,12 +211,12 @@
       "label": "sulfur_sc"
     },
     {
-      "belief": 0.9083078925457694,
+      "belief": 0.9083078925457695,
       "knowledge_id": "github:h3s_superconductivity::sulfur_tc_too_low",
       "label": "sulfur_tc_too_low"
     },
     {
-      "belief": 0.8918351458268,
+      "belief": 0.8918351458268001,
       "knowledge_id": "github:h3s_superconductivity::superconductivity_confirmed",
       "label": "superconductivity_confirmed"
     }
@@ -224,10 +224,10 @@
   "diagnostics": {
     "belief_history": {
       "github:h3s_superconductivity::__conjunction_result_13aa6b2f": [
-        0.8012170150275971
+        0.801217015027597
       ],
       "github:h3s_superconductivity::__conjunction_result_19cbc74b": [
-        0.6444822719331135
+        0.6444822719331134
       ],
       "github:h3s_superconductivity::__conjunction_result_22ae12bd": [
         0.6988403760488724
@@ -314,7 +314,7 @@
         0.7164131284047132
       ],
       "github:h3s_superconductivity::h3s_formation_hypothesis": [
-        0.8631019067469314
+        0.8631019067469315
       ],
       "github:h3s_superconductivity::high_tc_discovery": [
         0.9261495089067799
@@ -329,7 +329,7 @@
         0.97357595
       ],
       "github:h3s_superconductivity::hydrogen_materials_prospect": [
-        0.8994074832082722
+        0.8994074832082721
       ],
       "github:h3s_superconductivity::isotope_effect": [
         0.92
@@ -362,10 +362,10 @@
         0.9091692107454229
       ],
       "github:h3s_superconductivity::sulfur_tc_too_low": [
-        0.9083078925457694
+        0.9083078925457695
       ],
       "github:h3s_superconductivity::superconductivity_confirmed": [
-        0.8918351458268
+        0.8918351458268001
       ]
     },
     "converged": true,
@@ -375,5 +375,5 @@
     "treewidth": 3
   },
   "gaia_lang_version": "0.3.0",
-  "ir_hash": "sha256:eca6bbabb06f46f4a16f01295ae545ef56eed90d220866c436897b69a8208417"
+  "ir_hash": "sha256:b49f49f851d7982196f112ea6d7bbe97be5738652b051f870e818a783317ca3a"
 }

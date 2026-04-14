@@ -1,5 +1,5 @@
 {
-  "ir_hash": "sha256:eca6bbabb06f46f4a16f01295ae545ef56eed90d220866c436897b69a8208417",
+  "ir_hash": "sha256:b49f49f851d7982196f112ea6d7bbe97be5738652b051f870e818a783317ca3a",
   "knowledges": [
     {
       "content": "Bardeen-Cooper-Schrieffer (BCS) theory: phonon-mediated electron-electron attraction leads to Cooper pairing. The Eliashberg formulation puts no apparent bounds on Tc. High Tc requires: (1) high-frequency phonons, (2) strong electron-phonon coupling, (3) high density of states.",
@@ -127,6 +127,8 @@
       "id": "github:h3s_superconductivity::sulfur_sc",
       "label": "sulfur_sc",
       "metadata": {
+        "caption": "Fig. 2 | Pressure dependence of critical superconducting temperature Tc on pressure. Dark yellow points are Tc of pure sulfur, far below the H₂S/D₂S values.",
+        "figure": "artifacts/images/fig2-pressure-tc-phase-diagram.png",
         "prior": 0.95,
         "prior_justification": "Well-established; measured independently by multiple groups."
       },
@@ -178,6 +180,8 @@
       "id": "github:h3s_superconductivity::h2s_metallization",
       "label": "h2s_metallization",
       "metadata": {
+        "caption": "Extended Data Fig. 2 | Temperature dependence of resistance (superconducting steps). Corresponding Tc values are shown by blue points in Fig. 2.",
+        "figure": "artifacts/images/ext-fig2-low-tc-resistance.png",
         "prior": 0.95,
         "prior_justification": "Direct resistance and photoconductivity measurements in DAC."
       },
@@ -194,6 +198,8 @@
       "id": "github:h3s_superconductivity::low_tc_onset",
       "label": "low_tc_onset",
       "metadata": {
+        "caption": "Fig. 1a | Temperature dependence of resistance of sulfur hydride at growing pressures. Bottom: resistance plots near zero showing the superconducting transition.",
+        "figure": "artifacts/images/fig1-resistance-vs-temperature.png",
         "gaia": {
           "provenance": {
             "referenced_claims": [
@@ -215,6 +221,8 @@
       "id": "github:h3s_superconductivity::low_tc_pressure_dependence",
       "label": "low_tc_pressure_dependence",
       "metadata": {
+        "caption": "Fig. 2a | Pressure dependence of Tc for the low-temperature route. Black points from Fig. 1a, blue from other runs, red for D₂S, grey stars from Li et al. calculations.",
+        "figure": "artifacts/images/fig2-pressure-tc-phase-diagram.png",
         "gaia": {
           "provenance": {
             "referenced_claims": [
@@ -259,6 +267,8 @@
       "id": "github:h3s_superconductivity::high_tc_discovery",
       "label": "high_tc_discovery",
       "metadata": {
+        "caption": "Fig. 2b | Higher Tc ~ 190 K found when P > 150 GPa was applied at 220–300 K. Wine points show the accompanying 30 K step. Red point is Tc for D₂S sample.",
+        "figure": "artifacts/images/fig2-pressure-tc-phase-diagram.png",
         "prior": 0.9,
         "prior_justification": "Resistance drops to sub-copper levels; reproduced in multiple runs. Sample inhomogeneity and pressure gradients add some uncertainty."
       },
@@ -297,6 +307,8 @@
       "id": "github:h3s_superconductivity::accompanying_30k_step",
       "label": "accompanying_30k_step",
       "metadata": {
+        "caption": "Extended Data Fig. 3 | Transformation of the superconducting state in H₂S with pressure, temperature and time. The step at ~180 K developed at the cooling line, became more pronounced with time (15 hours).",
+        "figure": "artifacts/images/ext-fig3-190k-step-evolution.png",
         "prior": 0.85,
         "prior_justification": "Observed in multiple runs; transient nature makes systematic study difficult."
       },
@@ -313,6 +325,8 @@
       "id": "github:h3s_superconductivity::resistivity_proof",
       "label": "resistivity_proof",
       "metadata": {
+        "caption": "Extended Data Fig. 3 | Minimum resistance R = 1.7×10⁻⁶ Ω at 144 K (inset). Corresponding resistivity ρ ~ 1.7×10⁻¹⁰ Ω·m, ~50× lower than copper.",
+        "figure": "artifacts/images/ext-fig3-190k-step-evolution.png",
         "prior": 0.95,
         "prior_justification": "ρ = 1.7×10⁻¹⁰ Ω·m, 50× below copper; measurement well-calibrated."
       },
@@ -329,6 +343,8 @@
       "id": "github:h3s_superconductivity::magnetic_field_proof",
       "label": "magnetic_field_proof",
       "metadata": {
+        "caption": "Fig. 3 | Temperature dependence of resistance at different magnetic fields. (a) ~60 K step at 155 GPa. (b) ~185 K step at 195 GPa. (c) Extrapolation of Hc2(T) to estimate critical fields ~25 T and ~70 T.",
+        "figure": "artifacts/images/fig3-magnetic-field-dependence.png",
         "prior": 0.9,
         "prior_justification": "Clear Tc shift with field up to 7 T; Hc2 extrapolation adds uncertainty."
       },
@@ -345,6 +361,8 @@
       "id": "github:h3s_superconductivity::isotope_effect",
       "label": "isotope_effect",
       "metadata": {
+        "caption": "Extended Data Fig. 4 | Electrical measurements of sulfur deuteride at 163 GPa. R(T) measured at decreasing temperature showing Tc ~ 90 K, about half the H₂S value of ~185 K.",
+        "figure": "artifacts/images/ext-fig4-d2s-isotope.png",
         "prior": 0.92,
         "prior_justification": "α ≈ 0.5 matches BCS; D₂S purity 97% introduces slight uncertainty."
       },
@@ -384,6 +402,8 @@
       "id": "github:h3s_superconductivity::no_h2_vibron",
       "label": "no_h2_vibron",
       "metadata": {
+        "caption": "Supplementary Fig. 1 | Raman spectra of sulfur hydride at different pressures. (a) H₂S spectra at increasing pressure. (b) D₂S Raman spectra. No H₂ vibron peak is observed.",
+        "figure": "artifacts/images/ext-fig1-raman-spectra.png",
         "prior": 0.9,
         "prior_justification": "Sensitive spectrometer + ultralow-luminescence anvils; absence is definitive for bulk but cannot rule out trace amounts."
       },
@@ -482,6 +502,8 @@
       "id": "github:h3s_superconductivity::raman_phase_transition",
       "label": "raman_phase_transition",
       "metadata": {
+        "caption": "Extended Data Fig. 5 | Raman spectra of sulfur hydride compared with elemental sulfur. (a) Elemental sulfur at different pressures. (b) Sulfur hydride at high pressures, showing apparent phase transition at ~180 GPa distinct from sulfur's transition at ~160 GPa.",
+        "figure": "artifacts/images/ext-fig5-raman-sulfur-comparison.png",
         "prior": 0.85,
         "prior_justification": "Clear spectral changes at 180 GPa; pressure determination via diamond edge scale has ~5 GPa uncertainty."
       },

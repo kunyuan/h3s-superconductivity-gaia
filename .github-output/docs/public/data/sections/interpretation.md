@@ -8,6 +8,8 @@
 **Content:** The strong characteristic vibron of molecular H₂ was never observed in Raman spectra despite using a sensitive spectrometer and ultralow luminescence synthetic diamond anvils. This rules out simple decomposition H₂S → H₂ + S.
 **Prior:** 0.90
 **Belief:** 0.90
+**figure:** artifacts/images/ext-fig1-raman-spectra.png
+**caption:** Supplementary Fig. 1 | Raman spectra of sulfur hydride at different pressures. (a) H₂S spectra at increasing pressure. (b) D₂S Raman spectra. No H₂ vibron peak is observed.
 **prior:** 0.9
 **prior_justification:** Sensitive spectrometer + ultralow-luminescence anvils; absence is definitive for bulk but cannot rule out trace amounts.
 **Referenced by:** deduction -> `github:h3s_superconductivity::h2s_decomposition_not_to_h2`
@@ -68,6 +70,8 @@
 **Content:** Raman measurements of the sample with Tc ~ 190 K show a phase transformation at ~180 GPa upon pressure release. This matches the predicted structural transition in Duan et al.'s calculations and is distinct from elemental sulfur's phase transition at ~160 GPa.
 **Prior:** 0.85
 **Belief:** 0.85
+**figure:** artifacts/images/ext-fig5-raman-sulfur-comparison.png
+**caption:** Extended Data Fig. 5 | Raman spectra of sulfur hydride compared with elemental sulfur. (a) Elemental sulfur at different pressures. (b) Sulfur hydride at high pressures, showing apparent phase transition at ~180 GPa distinct from sulfur's transition at ~160 GPa.
 **prior:** 0.85
 **prior_justification:** Clear spectral changes at 180 GPa; pressure determination via diamond edge scale has ~5 GPa uncertainty.
 **Referenced by:** deduction -> `github:h3s_superconductivity::high_tc_is_h3s`

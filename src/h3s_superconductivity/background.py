@@ -111,6 +111,12 @@ sulfur_sc = claim(
     "as dark yellow points). Sulfur superconductivity alone cannot explain "
     "the high Tc observed in H₂S samples.",
     title="Sulfur Superconductivity",
+    figure="artifacts/images/fig2-pressure-tc-phase-diagram.png",
+    caption=(
+        "Fig. 2 | Pressure dependence of critical superconducting "
+        "temperature Tc on pressure. Dark yellow points are Tc of pure "
+        "sulfur, far below the H₂S/D₂S values."
+    ),
 )
 
 # ---------------------------------------------------------------------------

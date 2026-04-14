@@ -20,6 +20,12 @@ no_h2_vibron = claim(
     "luminescence synthetic diamond anvils. This rules out simple "
     "decomposition H₂S → H₂ + S.",
     title="No H₂ Vibron in Raman",
+    figure="artifacts/images/ext-fig1-raman-spectra.png",
+    caption=(
+        "Supplementary Fig. 1 | Raman spectra of sulfur hydride at "
+        "different pressures. (a) H₂S spectra at increasing pressure. "
+        "(b) D₂S Raman spectra. No H₂ vibron peak is observed."
+    ),
 )
 
 h2s_decomposition_not_to_h2 = claim(
@@ -107,6 +113,14 @@ raman_phase_transition = claim(
     "predicted structural transition in Duan et al.'s calculations and "
     "is distinct from elemental sulfur's phase transition at ~160 GPa.",
     title="Raman Phase Transition at 180 GPa",
+    figure="artifacts/images/ext-fig5-raman-sulfur-comparison.png",
+    caption=(
+        "Extended Data Fig. 5 | Raman spectra of sulfur hydride compared "
+        "with elemental sulfur. (a) Elemental sulfur at different "
+        "pressures. (b) Sulfur hydride at high pressures, showing "
+        "apparent phase transition at ~180 GPa distinct from sulfur's "
+        "transition at ~160 GPa."
+    ),
 )
 
 # ---------------------------------------------------------------------------

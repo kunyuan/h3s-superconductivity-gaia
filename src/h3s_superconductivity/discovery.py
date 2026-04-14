@@ -19,6 +19,12 @@ high_tc_discovery = claim(
     "T > 220 K (high-temperature route). This Tc has weak pressure "
     "dependence — qualitatively different from the low-T route.",
     title="High-Tc Discovery at 190–203 K",
+    figure="artifacts/images/fig2-pressure-tc-phase-diagram.png",
+    caption=(
+        "Fig. 2b | Higher Tc ~ 190 K found when P > 150 GPa was applied "
+        "at 220–300 K. Wine points show the accompanying 30 K step. "
+        "Red point is Tc for D₂S sample."
+    ),
 )
 
 high_tc_not_predicted = claim(
@@ -49,6 +55,13 @@ accompanying_30k_step = claim(
     "R(T) oscillations with a period of 25–30 K are observed in "
     "multiple runs.",
     title="Accompanying 30 K Step and Oscillations",
+    figure="artifacts/images/ext-fig3-190k-step-evolution.png",
+    caption=(
+        "Extended Data Fig. 3 | Transformation of the superconducting "
+        "state in H₂S with pressure, temperature and time. The step "
+        "at ~180 K developed at the cooling line, became more "
+        "pronounced with time (15 hours)."
+    ),
 )
 
 support(
@@ -75,6 +88,12 @@ resistivity_proof = claim(
     "ρ = 1.7×10⁻¹⁰ Ω·m, which is 50 times lower than copper "
     "(ρ_Cu = 70×10⁻¹⁰ Ω·m at 150 K).",
     title="Resistivity Far Below Copper",
+    figure="artifacts/images/ext-fig3-190k-step-evolution.png",
+    caption=(
+        "Extended Data Fig. 3 | Minimum resistance R = 1.7×10⁻⁶ Ω at "
+        "144 K (inset). Corresponding resistivity ρ ~ 1.7×10⁻¹⁰ Ω·m, "
+        "~50× lower than copper."
+    ),
 )
 
 # ---------------------------------------------------------------------------
@@ -89,6 +108,13 @@ magnetic_field_proof = claim(
     "Tc ~ 185 K state. The high Hc2 is characteristic of a type-II "
     "superconductor.",
     title="Magnetic Field Suppression of Tc",
+    figure="artifacts/images/fig3-magnetic-field-dependence.png",
+    caption=(
+        "Fig. 3 | Temperature dependence of resistance at different "
+        "magnetic fields. (a) ~60 K step at 155 GPa. (b) ~185 K step "
+        "at 195 GPa. (c) Extrapolation of Hc2(T) to estimate critical "
+        "fields ~25 T and ~70 T."
+    ),
 )
 
 # ---------------------------------------------------------------------------
@@ -102,6 +128,12 @@ isotope_effect = claim(
     "prediction Tc ∝ M^(−α) with α = 0.5 for the phonon mechanism. "
     "This confirms phonon-mediated (conventional BCS) superconductivity.",
     title="Strong Isotope Effect in D₂S",
+    figure="artifacts/images/ext-fig4-d2s-isotope.png",
+    caption=(
+        "Extended Data Fig. 4 | Electrical measurements of sulfur "
+        "deuteride at 163 GPa. R(T) measured at decreasing temperature "
+        "showing Tc ~ 90 K, about half the H₂S value of ~185 K."
+    ),
 )
 
 # ---------------------------------------------------------------------------
