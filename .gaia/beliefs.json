@@ -1,0 +1,388 @@
+{
+  "beliefs": [
+    {
+      "belief": 0.803831214413984,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_13aa6b2f",
+      "label": "__conjunction_result_13aa6b2f"
+    },
+    {
+      "belief": 0.7489232993874485,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_19cbc74b",
+      "label": "__conjunction_result_19cbc74b"
+    },
+    {
+      "belief": 0.7676936781631473,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_68d0bd6d",
+      "label": "__conjunction_result_68d0bd6d"
+    },
+    {
+      "belief": 0.5625933047550006,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_740978f6",
+      "label": "__conjunction_result_740978f6"
+    },
+    {
+      "belief": 0.7860268,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_780da5c4",
+      "label": "__conjunction_result_780da5c4"
+    },
+    {
+      "belief": 0.7291601367282695,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_c00c2578",
+      "label": "__conjunction_result_c00c2578"
+    },
+    {
+      "belief": 0.6956436335147306,
+      "knowledge_id": "github:h3s_superconductivity::__conjunction_result_df87a255",
+      "label": "__conjunction_result_df87a255"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_09d59c80",
+      "label": "__implication_result_09d59c80"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_101f74f0",
+      "label": "__implication_result_101f74f0"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_40fbedf6",
+      "label": "__implication_result_40fbedf6"
+    },
+    {
+      "belief": 0.9990391630401453,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_4f2a0055",
+      "label": "__implication_result_4f2a0055"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_65a42360",
+      "label": "__implication_result_65a42360"
+    },
+    {
+      "belief": 0.9990805112548777,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_6e7df430",
+      "label": "__implication_result_6e7df430"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_7f91558d",
+      "label": "__implication_result_7f91558d"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_a35aa7ca",
+      "label": "__implication_result_a35aa7ca"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_bdae99a9",
+      "label": "__implication_result_bdae99a9"
+    },
+    {
+      "belief": 0.999225270883558,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_cde789fd",
+      "label": "__implication_result_cde789fd"
+    },
+    {
+      "belief": 0.999,
+      "knowledge_id": "github:h3s_superconductivity::__implication_result_cf41b979",
+      "label": "__implication_result_cf41b979"
+    },
+    {
+      "belief": 0.9903643712015022,
+      "knowledge_id": "github:h3s_superconductivity::accompanying_30k_step",
+      "label": "accompanying_30k_step"
+    },
+    {
+      "belief": 0.95,
+      "knowledge_id": "github:h3s_superconductivity::ashcroft_hydrogen",
+      "label": "ashcroft_hydrogen"
+    },
+    {
+      "belief": 0.8467790469507267,
+      "knowledge_id": "github:h3s_superconductivity::conventional_sc_above_200k",
+      "label": "conventional_sc_above_200k"
+    },
+    {
+      "belief": 0.75,
+      "knowledge_id": "github:h3s_superconductivity::duan_prediction",
+      "label": "duan_prediction"
+    },
+    {
+      "belief": 0.8634870573191792,
+      "knowledge_id": "github:h3s_superconductivity::h2s_chosen_for_study",
+      "label": "h2s_chosen_for_study"
+    },
+    {
+      "belief": 0.8733390136679424,
+      "knowledge_id": "github:h3s_superconductivity::h2s_decomposition_not_to_h2",
+      "label": "h2s_decomposition_not_to_h2"
+    },
+    {
+      "belief": 0.9519581520072683,
+      "knowledge_id": "github:h3s_superconductivity::h2s_metallization",
+      "label": "h2s_metallization"
+    },
+    {
+      "belief": 0.8326912707497756,
+      "knowledge_id": "github:h3s_superconductivity::h2s_theory_prediction",
+      "label": "h2s_theory_prediction"
+    },
+    {
+      "belief": 0.882696066258007,
+      "knowledge_id": "github:h3s_superconductivity::h3s_formation_hypothesis",
+      "label": "h3s_formation_hypothesis"
+    },
+    {
+      "belief": 0.92252708835579,
+      "knowledge_id": "github:h3s_superconductivity::high_tc_discovery",
+      "label": "high_tc_discovery"
+    },
+    {
+      "belief": 0.7804533250136725,
+      "knowledge_id": "github:h3s_superconductivity::high_tc_is_h3s",
+      "label": "high_tc_is_h3s"
+    },
+    {
+      "belief": 0.9731097356206304,
+      "knowledge_id": "github:h3s_superconductivity::high_tc_not_predicted",
+      "label": "high_tc_not_predicted"
+    },
+    {
+      "belief": 0.9735759499999999,
+      "knowledge_id": "github:h3s_superconductivity::hydrogen_dominant_alloys",
+      "label": "hydrogen_dominant_alloys"
+    },
+    {
+      "belief": 0.9007106642165854,
+      "knowledge_id": "github:h3s_superconductivity::hydrogen_materials_prospect",
+      "label": "hydrogen_materials_prospect"
+    },
+    {
+      "belief": 0.92,
+      "knowledge_id": "github:h3s_superconductivity::isotope_effect",
+      "label": "isotope_effect"
+    },
+    {
+      "belief": 0.6578088932780962,
+      "knowledge_id": "github:h3s_superconductivity::low_tc_agrees_with_theory",
+      "label": "low_tc_agrees_with_theory"
+    },
+    {
+      "belief": 0.975703383424452,
+      "knowledge_id": "github:h3s_superconductivity::low_tc_onset",
+      "label": "low_tc_onset"
+    },
+    {
+      "belief": 0.9877267207082411,
+      "knowledge_id": "github:h3s_superconductivity::low_tc_pressure_dependence",
+      "label": "low_tc_pressure_dependence"
+    },
+    {
+      "belief": 0.9,
+      "knowledge_id": "github:h3s_superconductivity::magnetic_field_proof",
+      "label": "magnetic_field_proof"
+    },
+    {
+      "belief": 0.9000000000000001,
+      "knowledge_id": "github:h3s_superconductivity::no_h2_vibron",
+      "label": "no_h2_vibron"
+    },
+    {
+      "belief": 0.85,
+      "knowledge_id": "github:h3s_superconductivity::raman_phase_transition",
+      "label": "raman_phase_transition"
+    },
+    {
+      "belief": 0.95,
+      "knowledge_id": "github:h3s_superconductivity::resistivity_proof",
+      "label": "resistivity_proof"
+    },
+    {
+      "belief": 0.9,
+      "knowledge_id": "github:h3s_superconductivity::silane_tc",
+      "label": "silane_tc"
+    },
+    {
+      "belief": 0.9523332116928727,
+      "knowledge_id": "github:h3s_superconductivity::sulfur_sc",
+      "label": "sulfur_sc"
+    },
+    {
+      "belief": 0.903954689460743,
+      "knowledge_id": "github:h3s_superconductivity::sulfur_tc_too_low",
+      "label": "sulfur_tc_too_low"
+    },
+    {
+      "belief": 0.8918351458268,
+      "knowledge_id": "github:h3s_superconductivity::superconductivity_confirmed",
+      "label": "superconductivity_confirmed"
+    }
+  ],
+  "diagnostics": {
+    "belief_history": {
+      "github:h3s_superconductivity::__conjunction_result_13aa6b2f": [
+        0.803831214413984
+      ],
+      "github:h3s_superconductivity::__conjunction_result_19cbc74b": [
+        0.7489232993874485
+      ],
+      "github:h3s_superconductivity::__conjunction_result_22ae12bd": [
+        0.8224344725472174
+      ],
+      "github:h3s_superconductivity::__conjunction_result_68d0bd6d": [
+        0.7676936781631473
+      ],
+      "github:h3s_superconductivity::__conjunction_result_740978f6": [
+        0.5625933047550006
+      ],
+      "github:h3s_superconductivity::__conjunction_result_780da5c4": [
+        0.7860268
+      ],
+      "github:h3s_superconductivity::__conjunction_result_c00c2578": [
+        0.7291601367282695
+      ],
+      "github:h3s_superconductivity::__conjunction_result_df87a255": [
+        0.6956436335147306
+      ],
+      "github:h3s_superconductivity::__implication_result_09d59c80": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_0bd0dc39": [
+        0.9998216103915608
+      ],
+      "github:h3s_superconductivity::__implication_result_0d381013": [
+        0.9998271620787358
+      ],
+      "github:h3s_superconductivity::__implication_result_101f74f0": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_40fbedf6": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_4f2a0055": [
+        0.9990391630401453
+      ],
+      "github:h3s_superconductivity::__implication_result_50aeaa17": [
+        0.9523808282580332
+      ],
+      "github:h3s_superconductivity::__implication_result_65a42360": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_6e7df430": [
+        0.9990805112548777
+      ],
+      "github:h3s_superconductivity::__implication_result_7f91558d": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_92f3c1ca": [
+        0.9999513789719101
+      ],
+      "github:h3s_superconductivity::__implication_result_a35aa7ca": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_b93b6f96": [
+        0.9821266957493568
+      ],
+      "github:h3s_superconductivity::__implication_result_bab3f674": [
+        0.835468680790168
+      ],
+      "github:h3s_superconductivity::__implication_result_bdae99a9": [
+        0.999
+      ],
+      "github:h3s_superconductivity::__implication_result_cde789fd": [
+        0.999225270883558
+      ],
+      "github:h3s_superconductivity::__implication_result_cf41b979": [
+        0.999
+      ],
+      "github:h3s_superconductivity::accompanying_30k_step": [
+        0.9903643712015022
+      ],
+      "github:h3s_superconductivity::ashcroft_hydrogen": [
+        0.95
+      ],
+      "github:h3s_superconductivity::conventional_sc_above_200k": [
+        0.8467790469507267
+      ],
+      "github:h3s_superconductivity::duan_prediction": [
+        0.75
+      ],
+      "github:h3s_superconductivity::h2s_chosen_for_study": [
+        0.8634870573191792
+      ],
+      "github:h3s_superconductivity::h2s_decomposition_not_to_h2": [
+        0.8733390136679424
+      ],
+      "github:h3s_superconductivity::h2s_metallization": [
+        0.9519581520072683
+      ],
+      "github:h3s_superconductivity::h2s_theory_prediction": [
+        0.8326912707497756
+      ],
+      "github:h3s_superconductivity::h3s_formation_hypothesis": [
+        0.882696066258007
+      ],
+      "github:h3s_superconductivity::high_tc_discovery": [
+        0.92252708835579
+      ],
+      "github:h3s_superconductivity::high_tc_is_h3s": [
+        0.7804533250136725
+      ],
+      "github:h3s_superconductivity::high_tc_not_predicted": [
+        0.9731097356206304
+      ],
+      "github:h3s_superconductivity::hydrogen_dominant_alloys": [
+        0.9735759499999999
+      ],
+      "github:h3s_superconductivity::hydrogen_materials_prospect": [
+        0.9007106642165854
+      ],
+      "github:h3s_superconductivity::isotope_effect": [
+        0.92
+      ],
+      "github:h3s_superconductivity::low_tc_agrees_with_theory": [
+        0.6578088932780962
+      ],
+      "github:h3s_superconductivity::low_tc_onset": [
+        0.975703383424452
+      ],
+      "github:h3s_superconductivity::low_tc_pressure_dependence": [
+        0.9877267207082411
+      ],
+      "github:h3s_superconductivity::magnetic_field_proof": [
+        0.9
+      ],
+      "github:h3s_superconductivity::no_h2_vibron": [
+        0.9000000000000001
+      ],
+      "github:h3s_superconductivity::raman_phase_transition": [
+        0.85
+      ],
+      "github:h3s_superconductivity::resistivity_proof": [
+        0.95
+      ],
+      "github:h3s_superconductivity::silane_tc": [
+        0.9
+      ],
+      "github:h3s_superconductivity::sulfur_sc": [
+        0.9523332116928727
+      ],
+      "github:h3s_superconductivity::sulfur_tc_too_low": [
+        0.903954689460743
+      ],
+      "github:h3s_superconductivity::superconductivity_confirmed": [
+        0.8918351458268
+      ]
+    },
+    "converged": true,
+    "direction_changes": {},
+    "iterations_run": 2,
+    "max_change_at_stop": 0.0,
+    "treewidth": 3
+  },
+  "gaia_lang_version": "0.3.0",
+  "ir_hash": "sha256:fbefc585df6dfe7368423255192f054b093f7f6ca984117de8134291821a8e60"
+}

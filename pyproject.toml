@@ -1,0 +1,23 @@
+[project]
+name = "h3s-superconductivity-gaia"
+version = "0.1.0"
+description = "Gaia knowledge package: Conventional superconductivity at 203 K in sulfur hydride (Drozdov et al., Nature 525, 73, 2015; arXiv:1412.0460)"
+readme = "README.md"
+authors = [
+    { name = "kunchen", email = "chenkun0228@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "gaia-lang>=0.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/h3s_superconductivity"]
+
+[tool.gaia]
+type = "knowledge-package"
+uuid = "282f553a-7ced-41ba-ba33-4b1006d760da"

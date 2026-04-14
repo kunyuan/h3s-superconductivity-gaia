@@ -1,0 +1,7 @@
+{
+  "bridges": [],
+  "ir_hash": "sha256:fbefc585df6dfe7368423255192f054b093f7f6ca984117de8134291821a8e60",
+  "manifest_schema_version": 1,
+  "package": "h3s-superconductivity",
+  "version": "0.1.0"
+}
