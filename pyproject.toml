@@ -21,3 +21,6 @@ packages = ["src/h3s_superconductivity"]
 [tool.gaia]
 type = "knowledge-package"
 uuid = "282f553a-7ced-41ba-ba33-4b1006d760da"
+
+[tool.uv.sources]
+gaia-lang = { path = "../Gaia", editable = true }
